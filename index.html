@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- EDITE: título que aparece na aba do navegador -->
+  <title>[ seu titulo ]</title>
+  <!-- EDITE: descrição mostrada quando o link é compartilhado -->
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">sobre</a>
+      <span class="sep">|</span>
+      <a href="coisas.html">coisas</a>
+      <span class="sep">|</span>
+      <a href="diario.html">diario</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- LINKS (um por linha, em negrito) -->
+    <section class="links">
+      <a href="#">[ link ]</a>
+      <a href="#">[ link ]</a>
+      <a href="#">[ link ]</a>
+    </section>
+
+    <section>
+      <h2>sobre mim</h2>
+      <p class="vazio">[ escreva aqui ]</p>
+    </section>
+
+    <section>
+      <h2>musica favorita atualmente</h2>
+      <p class="vazio">[ escreva aqui ]</p>
+    </section>
+
+    <section>
+      <h2>musicas em rotacao</h2>
+      <ul class="lista">
+        <!-- Modelo de item (copie uma linha por item).
+             data-nota aceita de 0 a 5; o script monta as estrelas. -->
+        <li>
+          <span class="estrelas" data-nota=""></span>
+          <span class="vazio">[ item ]</span>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <span class="vazio">ultima atualizacao: <span id="atualizado">--/--/----</span></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
