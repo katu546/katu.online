@@ -141,4 +141,24 @@ footer {
   section {
     margin-top: 28px;
   }
+  
+/* ===== Lista com ícones ===== */
+.itens {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.itens li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 22px;
+  margin-bottom: 4px;
+}
+
+.itens img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
 }
